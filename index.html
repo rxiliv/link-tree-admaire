@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="theme-color" content="#1A1340">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AdmAIre · link</title>
+<meta name="description" content="AdmAIre: occhiali intelligenti che descrivono l'ambiente a voce, per persone cieche e ipovedenti. Tutti i link del progetto.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;500;700&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--viola:#432296;--petrolio:#0088a4;--fondo:#1A1340;--testo:#F4F3FF;--tenue:#C3C1E4;--viola-chiaro:#8FDCEB;
+  --grad:linear-gradient(120deg,#5CCDE3,#A98BEB)}
+*{box-sizing:border-box;margin:0}
+html{background:var(--fondo)}
+body{min-height:100vh;font-family:"Public Sans",system-ui,sans-serif;color:var(--testo);
+  background:radial-gradient(120% 70% at 0% 0%,rgba(0,136,164,.75) 0%,transparent 60%),radial-gradient(110% 75% at 100% 100%,var(--viola) 0%,transparent 65%),var(--fondo);
+  display:flex;justify-content:center;padding:56px 22px 40px;line-height:1.5}
+main{width:100%;max-width:440px;text-align:center}
+.logo{display:block;width:170px;height:auto;margin:0 auto 18px}
+h1{font-family:Lexend,sans-serif;font-weight:700;font-size:2.4rem;letter-spacing:-.02em}
+h1 .ai{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.sotto{color:var(--tenue);margin:6px auto 34px;max-width:32ch}
+ul{list-style:none;padding:0;text-align:left}
+li+li{border-top:1px solid rgba(143,220,235,.25)}
+.voce{display:flex;align-items:center;gap:16px;padding:20px 2px;color:inherit;text-decoration:none}
+.ico{flex:none;width:26px;height:26px;color:#fff}
+.ico svg{width:100%;height:100%}
+.testo strong{display:block;font-family:Lexend,sans-serif;font-weight:500;font-size:1.12rem}
+.testo span{font-size:.9rem;color:var(--tenue)}
+.freccia{margin-left:auto;color:var(--viola-chiaro);font-size:1.15rem;transition:transform .2s ease}
+a.voce:hover strong{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+a.voce:hover .freccia{transform:translate(3px,-3px)}
+a.voce:focus-visible{outline:2px solid #fff;outline-offset:4px;border-radius:6px}
+.attesa strong{color:var(--tenue)}
+.badge{margin-left:auto;font-size:.82rem;font-style:italic;color:var(--viola-chiaro);white-space:nowrap}
+footer{margin-top:48px;font-size:.82rem;color:var(--tenue)}
+</style>
+</head>
+<body>
+<main>
+  <img class="logo" src="logo.svg" alt="" width="200" height="120">
+  <h1>Adm<span class="ai">AI</span>re</h1>
+  <p class="sotto" lang="en">Wear your sight</p>
+
+  <ul>
+    <li>
+      <div class="voce attesa" aria-label="Link in arrivo, non ancora disponibile">
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+        <span class="testo"><strong>Link in arrivo</strong><span>Una novità del progetto, a breve qui</span></span>
+        <span class="badge" aria-hidden="true">presto</span>
+      </div>
+    </li>
+    <li>
+      <a class="voce" href="https://github.com/rxiliv/admAIre" target="_blank" rel="noopener">
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 5v-3.5c0-1 .1-1.4-.5-2 2.8-.3 5.5-1.4 5.5-6a4.6 4.6 0 0 0-1.3-3.2 4.2 4.2 0 0 0-.1-3.2s-1.1-.3-3.5 1.3a12.3 12.3 0 0 0-6.2 0C6.5 2.8 5.4 3.1 5.4 3.1a4.2 4.2 0 0 0-.1 3.2A4.6 4.6 0 0 0 4 9.5c0 4.6 2.7 5.7 5.5 6-.6.6-.6 1.2-.5 2V21"/></svg></span>
+        <span class="testo"><strong>Il progetto su GitHub</strong><span>Codice, modello 3D e schema elettrico</span></span>
+        <span class="freccia" aria-hidden="true">↗</span>
+      </a>
+    </li>
+    <li>
+      <a class="voce" href="https://youtu.be/4NseJN9GwOw" target="_blank" rel="noopener">
+        <span class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"><path d="M8 5.5v13l11-6.5z"/></svg></span>
+        <span class="testo"><strong>Il video di presentazione</strong><span>Guarda AdmAIre su YouTube</span></span>
+        <span class="freccia" aria-hidden="true">↗</span>
+      </a>
+    </li>
+  </ul>
+  <footer>AdmAIre · progetto aperto</footer>
+</main>
+</body>
+</html>
